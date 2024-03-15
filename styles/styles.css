@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+/*Kleuren webpagina: grijs #899CA0 en donkergroen #1C2B32*/
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -16,19 +20,82 @@ Table of Contents:
     1. Global Styles
 ////////////////////////*/
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
+input,
+button {
+    font-size: inherit;
+}
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
 
-
+body {
+    font-family: "Poppins", sans-serif;
+}
 
 /*////////////////////////
     3. Areas
 ////////////////////////*/
 
+.header {
+    color: #1C2B32;
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
 
+.header-content{
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 68px;
+}
+
+.header-content h1 {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.header-content p {
+    font-size:13px
+}
+
+.header-content form {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.domain-name-input {
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 2px solid #1C2B32;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding: 18px 100px 18px 20px;
+    margin: -6px
+}
+
+.domain-name-input::placeholder {
+    color: #1C2B32;
+}
+
+.domain-name-button {
+    background-color: #1C2B32;
+    color: #FFF;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 20px 28px 20px 28px;
+    cursor: pointer;
+}
 
 /*///////////// 3.1 Header /////////////*/
 
