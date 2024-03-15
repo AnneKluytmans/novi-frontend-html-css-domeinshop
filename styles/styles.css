@@ -117,6 +117,12 @@ body {
     margin: 0 auto;
 }
 
+.main h2 {
+    font-size: 28px;
+    text-align: center;
+    margin: 20px;
+}
+
 /*///////////// 3.3 Testimonial /////////////*/
 
 
@@ -128,15 +134,10 @@ body {
     font-size: 14px;
 }
 
-.section-client-support h2 {
-    font-size: 24px;
-    text-align: center;
-}
-
 .section-client-support img {
     width: 100%;
     border-radius: 20px;
-    margin: 30px 0 20px 0;
+    margin: 18px 0;
 }
 
 .contact-button {
@@ -150,6 +151,27 @@ body {
 
 /*///////////// 3.5 Faq /////////////*/
 
+.section-faq {
+    margin: 15px 0 30px 0;
+}
 
+.faq-question summary {
+    margin: 10px;
+}
 
+.faq-question p {
+    background-color: #899CA0;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
 /*///////////// 3.6 Footer /////////////*/
+
+.footer p {
+    background-color: #1C2B32;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 26px;
+}
