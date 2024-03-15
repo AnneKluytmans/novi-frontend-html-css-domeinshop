@@ -120,13 +120,53 @@ body {
 .main h2 {
     font-size: 28px;
     text-align: center;
-    margin: 20px;
+    margin: 60px;
 }
 
 /*///////////// 3.3 Testimonial /////////////*/
 
+.client-review-box {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 5px 8px 24px rgba(0, 0, 0, 0.30);
+    margin: 50px 0;
+    height: 200px;
+    position: relative;
+}
 
+.client-review-box p {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: 75%;
+    font-size: 14px;
+}
 
+.quote-icon-left {
+    position: absolute;
+    top: 45px;
+    left: 120px;
+    width: 22px;
+}
+
+.author-info {
+    position: absolute;
+    left: 150px;
+    top: 110px;
+}
+
+.author-photo {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.author-name {
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: middle; /*ik kreeg de tekst niet mooi in het midden. Hoe kan je dit toch doen?*/
+}
 
 /*///////////// 3.4 Support /////////////*/
 
@@ -137,7 +177,7 @@ body {
 .section-client-support img {
     width: 100%;
     border-radius: 20px;
-    margin: 18px 0;
+    margin-bottom: 20px;
 }
 
 .contact-button {
@@ -151,12 +191,9 @@ body {
 
 /*///////////// 3.5 Faq /////////////*/
 
-.section-faq {
-    margin: 15px 0 30px 0;
-}
-
 .faq-question summary {
     margin: 10px;
+    cursor: pointer;
 }
 
 .faq-question p {
@@ -165,7 +202,6 @@ body {
     border-radius: 20px;
     padding: 20px;
     margin: 5px;
-    cursor: pointer;
 }
 /*///////////// 3.6 Footer /////////////*/
 
@@ -174,4 +210,5 @@ body {
     color: #FFFFFF;
     text-align: center;
     padding: 26px;
+    margin-top: 50px;
 }
