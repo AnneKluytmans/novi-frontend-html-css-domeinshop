@@ -8,13 +8,11 @@ Table of Contents:
     2. Typografie
     3. Areas
         3.1 Header
-        3.2 Main
-        3.3 Testimonial
-        3.4 Support
-        3.5 Faq
-        3.6 Footer
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
-
 
 
 /*////////////////////////
@@ -28,12 +26,37 @@ Table of Contents:
     border: 0;
 }
 
+body {
+    font-family: "Poppins", sans-serif;
+    color: #1C2B32;
+}
+
+.main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.main h2 {
+    font-size: 28px;
+    text-align: center;
+    margin: 60px;
+}
+
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+
 input,
 button {
+    font-family: inherit;
     font-size: inherit;
 }
 
-a {
+a,
+a:link {
     color: #899CA0;
     text-decoration: underline;
 }
@@ -43,29 +66,19 @@ a:visited {
 }
 
 /*////////////////////////
-    2. Typography
-////////////////////////*/
-
-body {
-    font-family: "Poppins", sans-serif;
-}
-
-/*////////////////////////
     3. Areas
 ////////////////////////*/
 
 /*///////////// 3.1 Header /////////////*/
 
 .header {
-    color: #1C2B32;
     background-image: url("../assets/images/mountains.jpg");
     background-size: cover;
-    background-position: center;
-    height: 650px;
+    background-position: top;
+    height: 620px;
 }
 
 .header-content{
-    width: 100%;
     max-width: 1000px;
     text-align: center;
     margin: 0 auto;
@@ -78,7 +91,7 @@ body {
 }
 
 .header-content p {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .header-content form {
@@ -93,11 +106,12 @@ body {
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
     padding: 18px 100px 18px 22px;
-    margin: -6px
+    margin-right: -6px;
 }
 
 .domain-name-input::placeholder {
     color: #1C2B32;
+    font-size: 16px;
 }
 
 .domain-name-button {
@@ -109,21 +123,7 @@ body {
     cursor: pointer;
 }
 
-/*///////////// 3.2 Main /////////////*/
-
-.main {
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.main h2 {
-    font-size: 28px;
-    text-align: center;
-    margin: 60px;
-}
-
-/*///////////// 3.3 Testimonial /////////////*/
+/*///////////// 3.2 Testimonial /////////////*/
 
 .client-review-box {
     background-color: #FFFFFF;
@@ -160,15 +160,15 @@ body {
     height: 44px;
     border-radius: 50%;
     margin-right: 20px;
+    vertical-align: middle; /*ik kreeg de tekst niet mooi in het midden. Hoe kan je dit toch doen?*/
 }
 
 .author-name {
     display: inline-block;
     font-size: 14px;
-    vertical-align: middle; /*ik kreeg de tekst niet mooi in het midden. Hoe kan je dit toch doen?*/
 }
 
-/*///////////// 3.4 Support /////////////*/
+/*///////////// 3.3 Support /////////////*/
 
 .section-client-support {
     font-size: 14px;
@@ -189,7 +189,7 @@ body {
     margin-top: 20px;
 }
 
-/*///////////// 3.5 Faq /////////////*/
+/*///////////// 3.4 Faq /////////////*/
 
 .faq-question summary {
     margin: 10px;
@@ -203,7 +203,7 @@ body {
     padding: 20px;
     margin: 5px;
 }
-/*///////////// 3.6 Footer /////////////*/
+/*///////////// 3.5 Footer /////////////*/
 
 .footer p {
     background-color: #1C2B32;
