@@ -43,11 +43,11 @@ This repository contains the result of an assignment for the Frontend Developmen
 Clone the repository in an IDE and run `index.html` in your browser:
 
 ```
-git@github.com:AnneKluytmans/novi-frontend-final-project-meal-match.git    
+git@github.com:AnneKluytmans/novi-homework-frontend-html-css-domeinshop.git    
 ``` 
 or
 ```
-git clone https://github.com/AnneKluytmans/novi-frontend-final-project-meal-match.git
+git clone https://github.com/AnneKluytmans/novi-homework-frontend-html-css-domeinshop.git
 ```
 
 ## Credits
