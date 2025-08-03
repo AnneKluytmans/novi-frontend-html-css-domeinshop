@@ -40,15 +40,7 @@ This repository contains the result of an assignment for the Frontend Developmen
 
 ## Project Setup
 
-Clone the repository in an IDE and run `index.html` in your browser:
-
-```
-git@github.com:AnneKluytmans/novi-homework-frontend-html-css-domeinshop.git    
-``` 
-or
-```
-git clone https://github.com/AnneKluytmans/novi-homework-frontend-html-css-domeinshop.git
-```
+Clone the repository in an IDE and run `index.html` in your browser.
 
 ## Credits
 > "Assignment brief, design and structure based on course materials from Novi University."
